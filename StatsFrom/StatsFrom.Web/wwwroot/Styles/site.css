@@ -1,0 +1,43 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+form {
+    max-width: 500px;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    padding: 1ex;
+}
+
+    form input, form textarea {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid #666;
+        background-color: #fff;
+        color: #000;
+    }
+
+        form input[type=submit] {
+            width: unset;
+            padding: 1ex 3ex;
+            background-color: #333;
+            color: #fff;
+        }
+
+.input-validation-error {
+    border: 1px solid #c00;
+    background-color: #fcc;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.validation-summary-errors {
+    padding: 1ex;
+    background-color: #c00;
+    color: #fff;
+}

@@ -28,7 +28,7 @@ namespace StatsFrom.Web
             }
 
             app.UseRouting();
-
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }
