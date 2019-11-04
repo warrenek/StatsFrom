@@ -10,7 +10,7 @@ namespace StartsFrom.ApiConnector
         public string RequestUri { get; set; }
         public FeedType FeedType { get; set; }
 
-        public abstract Uri GetLink(string playerName);
+        public abstract Uri GetLink(string playerName, string hashtag);
 
         public object GetData(Uri uri)
         {

@@ -5,8 +5,9 @@
 }
 
 <h1>COD</h1>
-<form>
-
+<form method="post">
+    @Html.EditorFor(x => x.player)
+    <input type="submit" value="Odeslat" />
     @Html.EditorFor(x => x.Data)
 </form>
 
