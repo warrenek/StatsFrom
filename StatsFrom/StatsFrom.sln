@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatsFrom.Web", "StatsFrom.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatsFrom.Data", "StatsFrom.Data\StatsFrom.Data.csproj", "{C88FC498-059A-4E84-9F0E-DE59E8D262A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartsFrom.ApiConnector", "StartsFrom.ApiConnector\StartsFrom.ApiConnector.csproj", "{F0D3E8A8-052F-46AB-96CD-5A3694130BF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatsFrom.ApiConnector", "StartsFrom.ApiConnector\StatsFrom.ApiConnector.csproj", "{F0D3E8A8-052F-46AB-96CD-5A3694130BF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

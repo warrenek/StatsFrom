@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StartsFrom.ApiConnector\StartsFrom.ApiConnector.csproj" />
+    <ProjectReference Include="..\StartsFrom.ApiConnector\StatsFrom.ApiConnector.csproj" />
     <ProjectReference Include="..\StatsFrom.Data\StatsFrom.Data.csproj" />
   </ItemGroup>
 
