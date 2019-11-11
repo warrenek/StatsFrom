@@ -1,4 +1,5 @@
-﻿using StatsFrom.Data.Enums;
+﻿using Microsoft.AspNetCore.Mvc;
+using StatsFrom.Data.Enums;
 using StatsFrom.Data.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -29,6 +30,7 @@ namespace StatsFrom.Data.Classes
         public decimal WinRatio { get; set; }
         public int HeadShots { get; set; }
         public decimal Accuracy { get; set; }
+        [HiddenInput(DisplayValue = false)]
         public Game Game { get; set; }
     }
 }
