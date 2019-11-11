@@ -1,0 +1,9 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "fontawesome": "^5.6.3",
+    "jquery-easing": "0.0.1"
+  }
+}
